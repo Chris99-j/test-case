@@ -1,0 +1,130 @@
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background: #f2f4f8;
+  color: #333;
+}
+
+/* Main Layout */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #1e293b;
+}
+
+/* Card-style section for form & table */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+}
+.export-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.excel-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.csv-btn {
+  background-color: #ff9800;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pdf-btn {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.csv-btn:hover {
+  background-color: #e68900;
+}
+
+.pdf-btn:hover {
+  background-color: #005fa3;
+}
+/* Outer wrapper to center everything */
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(to bottom right, #f0f4f8, #ffffff);
+  min-height: 100vh;
+}
+
+/* Inner container with max width */
+
+
+/* Header styling */
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Export button layout */
+.export-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Card for form and table */
+.card {
+  background: #fafafa;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+}

@@ -1,0 +1,56 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.testcase-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  min-width: 1000px;
+}
+
+.testcase-table th,
+.testcase-table td {
+  border: 1px solid #e0e0e0;
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.testcase-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #444;
+}
+
+.testcase-table input,
+.testcase-table textarea,
+.testcase-table select {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.testcase-table button {
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.2rem;
+  font-size: 0.85rem;
+  border: none;
+  background-color: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.testcase-table button:hover {
+  background-color: #ccc;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .testcase-table {
+    font-size: 0.85rem;
+    min-width: 100%;
+  }
+}
